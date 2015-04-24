@@ -84,6 +84,7 @@ func (p *Proxy) ServeHTTP(rw http.ResponseWriter, req *http.Request) {
 
 			if err != nil {
 				log.Errorf("%v target:%v", err, target)
+				return
 			}
 
 			item := &JsonItem{
