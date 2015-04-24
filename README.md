@@ -1,3 +1,5 @@
+[![wercker status](https://app.wercker.com/status/502464e21d5481a3704b3054ac24c8f7/s "wercker status")](https://app.wercker.com/project/bykey/502464e21d5481a3704b3054ac24c8f7)
+
 # proxy-collector
 
 throw clone request to multiple host and collect responses as json.
